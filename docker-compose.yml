@@ -9,7 +9,7 @@ services:
           RUN a2enmod rewrite
     restart: unless-stopped
     ports:
-      - 127.0.0.1:8000:80
+      - 127.0.0.1:8080:80
     volumes:
       - ./data/www:/var/www/html/
 
