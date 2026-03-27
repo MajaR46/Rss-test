@@ -1,0 +1,13 @@
+{
+    "name": "projekt",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "sass scss:css --watch"
+    },
+    "dependencies": {
+        "bootstrap": "^5.3.0"
+    },
+    "devDependencies": {
+        "sass": "^1.69.0"
+    }
+}
