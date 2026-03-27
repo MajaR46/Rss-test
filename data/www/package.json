@@ -2,7 +2,7 @@
     "name": "projekt",
     "version": "1.0.0",
     "scripts": {
-        "dev": "node ./node_modules/sass/sass.js scss:css --watch"
+        "dev": "CHOKIDAR_USEPOLLING=true CHOKIDAR_INTERVAL=100 node ./node_modules/sass/sass.js scss:css --watch"
     },
     "dependencies": {
         "bootstrap": "^5.3.0"
